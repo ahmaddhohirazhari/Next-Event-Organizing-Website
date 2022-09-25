@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+
+.content-image {
+  flex: 2;
+  background-color: aqua;
+}
+
+.content-form {
+  flex: 1;
+  background-color: blanchedalmond;
+}

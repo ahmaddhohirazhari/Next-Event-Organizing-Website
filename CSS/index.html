@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basic CSS</title>
+    <style>
+      h2 {
+        color: red;
+      }
+      h4 {
+        color: green;
+      }
+    </style>
+  </head>
+  <body style="height: 10000px">
+    <!-- INLINE -->
+    <h1 style="color: blue">Hello World</h1>
+    <!-- INTERNAL -->
+    <h2>Hai World !</h2>
+    <!-- EXTERNAL -->
+    <h3>Bonjour World !</h3>
+    <hr />
+    <!-- CASCADING ORDER -->
+    <h4 style="color: blue">Bagus</h4>
+    <hr />
+    <!-- CSS Specificity -->
+    <!-- BOBOT 1000 -->
+    <p class="paragraf" id="paragraf" style="background-color: violet">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, fugit!
+      Eligendi non repellat perspiciatis voluptates deleniti, ab suscipit
+      doloremque odio necessitatibus incidunt cumque iusto dolores amet quasi ea
+      dolore adipisci!
+    </p>
+    <hr />
+    <!-- Typography -->
+    <p class="font">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati
+      nesciunt repellat dolore iste quo provident saepe. Cum qui dignissimos
+      numquam, ipsam magnam hic accusantium, eum sint, perferendis accusamus
+      neque necessitatibus!
+    </p>
+    <p class="text">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore quos
+      quod earum omnis commodi, velit, voluptatum officiis facere sapiente iste
+      natus necessitatibus fuga dolorum expedita alias praesentium nisi, eius
+      cupiditate?z
+    </p>
+    <hr />
+    <!-- Box Model -->
+    <div class="box-1">Kotak 1</div>
+    <div class="box-2">Kotak 2</div>
+    <hr />
+    <!--  Positioning -->
+    <div class="box-container">
+      <div class="box"></div>
+      <div class="box box-static">static</div>
+      <div class="box"></div>
+      <div class="box box-relative">relative</div>
+      <div class="box"></div>
+      <div class="box box-absolute">absolute</div>
+      <div class="box"></div>
+      <div class="box box-fixed">fixed</div>
+      <div class="box box-sticky">sticky</div>
+      <div class="box"></div>
+      <div class="box red"></div>
+      <div class="box green"></div>
+      <div class="box blue"></div>
+    </div>
+    <hr />
+    <!-- Flexbox -->
+    <div class="flex-container">
+      <div class="flex-items">1</div>
+      <div class="flex-items flex-self">2</div>
+      <div class="flex-items">3</div>
+      <!-- <div class="flex-items">4</div> -->
+      <!-- <div class="flex-items">5</div> -->
+      <!-- <div class="flex-items">6</div> -->
+    </div>
+    <hr />
+    <!-- Media Query  -->
+    <div class="content">
+      <div class="content-title">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+        perferendis id delectus praesentium rerum impedit harum neque cupiditate
+        molestiae explicabo qui soluta atque laborum facere! Ea quae a harum
+        sequi?
+      </div>
+    </div>
+    <hr />
+    <!-- BEM -->
+    <form class="search">
+      <input type="text" class="search__input" />
+      <button class="search__button">Search</button>
+      <button class="search__button--disabled">Reset</button>
+    </form>
+  </body>
+</html>

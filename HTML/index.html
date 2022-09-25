@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML</title>
+  </head>
+  <body>
+    <!-- Heading -->
+    <h1>Hello World !</h1>
+    <h2>Hello World !</h2>
+    <h3>Hello World !</h3>
+    <h4>Hello World !</h4>
+    <h5>Hello World !</h5>
+    <h6>Hello World !</h6>
+    <hr />
+    <!-- Paragraf -->
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a iusto at
+      eaque doloribus hic, laborum impedit odio aliquam asperiores quod animi
+      illo, necessitatibus ad eveniet neque quisquam. Quo, blanditiis!
+    </p>
+    <pre>
+    Lorem,          ipsum dolor sit amet consectetur adipisicing elit. 
+        Omnis ea optio totam quae. 
+            Nulla magnam a labore perspiciatis distinctio odio, nobis, ut debitis saepe incidunt voluptatum natus perferendis iusto numquam!</pre
+    >
+    <hr />
+    <!-- Links -->
+    <a href="http://www.google.com" target="_blank">Google</a>
+    <a href="profile.html">Profile</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:alert('Hello World')">Alert Show</a>
+    <div id="contact">
+      <h3>Contact</h3>
+    </div>
+    <hr />
+    <!-- List -->
+    <ul type="square">
+      <li>Meja</li>
+      <li>Kursi</li>
+    </ul>
+    <ol type="a">
+      <li>Menari</li>
+      <li>Bernyanyi</li>
+    </ol>
+    <dl>
+      <dt>Coffee</dt>
+      <dd>Kopi Hitam</dd>
+      <dd>Kopi Susu</dd>
+      <dt>Tea</dt>
+      <dd>Teh Tarik</dd>
+    </dl>
+    <hr />
+    <!-- Table -->
+    <table>
+      <caption>
+        Pengeluaran Uang PerBulan
+      </caption>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Bulan</th>
+          <th>Pengeluaran</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Januari</td>
+          <td>RP. 100.000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Februari</td>
+          <td>RP. 500.000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total</td>
+          <td>RP. 600.000</td>
+        </tr>
+      </tfoot>
+    </table>
+    <hr />
+    <!-- Form -->
+    <form>
+      <fieldset>
+        <legend>Biodata :</legend>
+        <label>Nama Lengkap</label>
+        <input type="text" placeholder="Input Nama Lengkap ..." />
+        <br />
+        <label>Tanggal Lahir</label>
+        <input type="date" />
+        <input type="button" value="Click Me !" />
+        <br />
+        <select>
+          <option>Motor</option>
+          <option>Mobil</option>
+        </select>
+        <button>Click Me 2 !</button>
+      </fieldset>
+    </form>
+    <hr />
+    <!-- Media -->
+    <img src="kucing.jpeg" alt="Gambar Kucing" />
+    <br />
+    <video width="320" height="240" controls>
+      <source src="kucing.mp4" type="video/mp4" />
+    </video>
+    <br />
+    <audio controls>
+      <source src="kucing.mp3" type="audio/mpeg" />
+    </audio>
+    <hr />
+    <!-- Semantic HTML 5 -->
+    <div id="header">
+      <div id="nav">
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Logout</li>
+        </ul>
+      </div>
+    </div>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Profile</li>
+          <li>Logout</li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <!-- Inline & Block Element -->
+    <!-- Block -->
+    <h1>Text 1</h1>
+    <p>Text Paragraf</p>
+    <h1>Text 2</h1>
+    <!-- Inline -->
+    <input type="text" />
+    <a href="profile.html">Profile</a>
+    <img src="kucing.jpeg" alt="gambar kucing" />
+    <button>Click</button>
+    <h1>Test</h1>
+    <hr />
+    <!-- Attributes -->
+    <button disabled>Click Me !</button>
+    <input type="text" disabled />
+    <!-- Global Attributes-->
+    <button hidden>Click Me 2</button>
+    <!--Event Attributes -->
+    <button onClick="javascript:alert('Click Me Show')">Click Me 3 !</button>
+    <br />
+    <img
+      src="kucing.jpeg"
+      alt="gambar kucing"
+      onClick="javascript:alert('You are click image cat')"
+    />
+    <button>Hello</button>
+  </body>
+</html>
