@@ -1,0 +1,43 @@
+.jumbotron {
+  background-image: url("../home/banner.png");
+  height: 660px;
+  padding-top: 6rem;
+  /* background-color: #e2edff; */
+}
+section {
+  padding-top: 6rem;
+}
+
+#Event {
+  height: 750px;
+  padding-top: 6rem;
+}
+
+#location {
+  height: 750px;
+  padding-top: 6rem;
+  background-color: aqua;
+}
+
+.find {
+  margin-top: 150px;
+}
+
+.find1 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  letter-spacing: 2px;
+}
+
+.search {
+  width: 500px;
+  height: 50px;
+  left: 120px;
+  top: 504px;
+  box-shadow: 0px 4px 10px rgba(55, 58, 66, 0.1);
+  border-radius: 20px;
+}
+
+@media (min-width: 576px) {
+}
