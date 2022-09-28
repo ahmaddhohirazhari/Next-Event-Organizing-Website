@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url("../home/banner.png");
+  background-image: url("/asset/img/banner.png");
   height: 660px;
   padding-top: 6rem;
 
@@ -33,7 +33,7 @@ section {
 
 #Partner {
   margin-top: 50px;
-  background-image: url("../home/Group\ 5917.png");
+  background-image: url("/asset/img/banner-2.png");
   width: 100%;
   height: 450px;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ a:hover::before {
     height: 500px;
     background-color: #3796c9;
     background-repeat: no-repeat;
-    background-image: url("../home/Group\ 12.png");
+    background-image: url("/asset/img/banner-mobile.png");
   }
   #Event {
     height: 1750px;
