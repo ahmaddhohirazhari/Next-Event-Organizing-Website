@@ -39,6 +39,10 @@ section {
   background-repeat: no-repeat;
 }
 
+#last {
+  height: 600px;
+  margin-left: 10px;
+}
 a {
   color: #3796c9;
   position: relative;
@@ -102,6 +106,14 @@ a:hover::before {
 
   #Partner {
     width: 700px;
-    height: 1750px;
+    height: 450px;
   }
+  #last {
+    margin-top: 50px;
+    height: 1200px;
+  }
+}
+
+#last li {
+  color: #c1c5d0;
 }
