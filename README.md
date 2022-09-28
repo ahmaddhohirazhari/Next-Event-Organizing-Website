@@ -2,9 +2,9 @@
   <p align="center">
     <a href="https://tiny-starship-0523a0.netlify.app/">View Demo</a>
     ·
-    <a href="https://https://github.com/ahmaddhohirazhari/Next-Event-Organizing-Website/issues">Report Bug</a>
+    <a href="https://github.com/ahmaddhohirazhari/Next-Event-Organizing-Website/issues">Report Bug</a>
     ·
-    <a href="https://https://github.com/ahmaddhohirazhari/Next-Event-Organizing-Website/pulls">Request Feature</a>
+    <a href="https://github.com/ahmaddhohirazhari/Next-Event-Organizing-Website/pulls">Request Feature</a>
   </p>
 
 ![Image Banner](Capture.png)
