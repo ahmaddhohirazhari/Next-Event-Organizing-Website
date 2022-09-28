@@ -39,7 +39,7 @@ section {
   background-repeat: no-repeat;
 }
 
-#last {
+#Footer {
   height: 600px;
   margin-left: 10px;
 }
@@ -113,12 +113,12 @@ a:hover::before {
   #Partner {
     height: 450px;
   }
-  #last {
+  #Footer {
     margin-top: 50px;
     height: 1200px;
   }
 }
 
-#last li {
+#Footer li {
   color: #c1c5d0;
 }
