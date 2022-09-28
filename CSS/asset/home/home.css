@@ -92,6 +92,12 @@ a:hover::before {
   border-radius: 30px;
 }
 @media (max-width: 1200px) {
+  .jumbotron {
+    height: 500px;
+    background-color: #3796c9;
+    background-repeat: no-repeat;
+    background-image: url("../home/Group\ 12.png");
+  }
   #Event {
     height: 1750px;
   }
