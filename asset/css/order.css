@@ -11,9 +11,11 @@ body {
   padding-top: 6rem;
   justify-content: center;
   background-color: white;
-  height: 750px;
+  height: 850px;
 }
-
+.checkout button {
+  width: 400px;
+}
 #sheet {
   margin-left: -20px;
 }
@@ -89,6 +91,9 @@ a:hover::before {
   }
   .quantity {
     margin-top: 20px;
+  }
+  .checkout button {
+    width: 100px;
   }
   .list h6 {
     margin-top: -20px;
