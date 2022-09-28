@@ -22,6 +22,15 @@ section {
   justify-content: center;
 }
 
+#location {
+  margin: 10px 25px;
+  border-radius: 30px;
+  background-color: #3796c9;
+  height: 750px;
+  padding-top: 6rem;
+  justify-content: center;
+}
+
 a {
   color: #3796c9;
   position: relative;
@@ -70,20 +79,12 @@ a:hover::before {
   font-size: 12px;
   border-radius: 30px;
 }
-@media (min-width: 576px) {
-  /* #Event {
-    width: 576px;
-    height: 3000px;
-    justify-content: center;
-  } */
-}
-
-#location {
-  background-image: url("../home/Mask\ Group\ \(2\).png");
-  background-color: #3796c9;
-  border-radius: 30px;
-  margin-left: -130px;
-  width: 1266px;
-  height: 700px;
-  justify-content: center;
+@media (max-width: 1200px) {
+  #Event {
+    height: 1750px;
+  }
+  #location {
+    margin-left: 25px;
+    height: 1750px;
+  }
 }
