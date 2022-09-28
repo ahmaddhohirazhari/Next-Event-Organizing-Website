@@ -7,7 +7,7 @@
     <a href="https://https://github.com/ahmaddhohirazhari/Next-Event-Organizing-Website/pulls">Request Feature</a>
   </p>
 
-![Image Banner](Capture.PNG)
+![Image Banner](Capture.png)
 
 ## About The Project
 
